@@ -1,6 +1,9 @@
 {
-  "name": "react-infinite-list",
-  "main": "dist/index.js",
+  "name": "react-infinite-list-observer",
+  "version": "1.0.3",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],

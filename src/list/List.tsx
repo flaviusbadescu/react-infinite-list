@@ -35,7 +35,7 @@ const ListInner = <T,>(
     >
       <div style={style}>
         {list.map((item, index) => (
-          <Fragment key={index}>{renderItem(item)}</Fragment>
+          <Fragment key={`list-item-${index}`}>{renderItem(item)}</Fragment>
         ))}
       </div>
       <div ref={loader} />
@@ -43,8 +43,6 @@ const ListInner = <T,>(
   );
 };
 
-const List = forwardRef(ListInner) as <T>(
+export const List = forwardRef(ListInner) as <T>(
   props: ListProps<T> & { ref?: React.ForwardedRef<{ resetPage: () => void }> }
 ) => ReturnType<typeof ListInner>;
-
-export default List;

@@ -1123,9 +1123,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-infinite-list@workspace:.":
+"react-infinite-list-observer@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-infinite-list@workspace:."
+  resolution: "react-infinite-list-observer@workspace:."
   dependencies:
     "@rollup/plugin-commonjs": ^23.0.2
     "@rollup/plugin-node-resolve": ^15.0.1
