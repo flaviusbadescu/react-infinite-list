@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-list-observer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -27,5 +27,9 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flaviusbadescu/react-infinite-list"
   }
 }
