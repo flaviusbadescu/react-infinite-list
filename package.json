@@ -1,0 +1,28 @@
+{
+  "name": "react-infinite-list",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "Flavius Badescu",
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.2.5",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
