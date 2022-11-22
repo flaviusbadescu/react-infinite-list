@@ -2,6 +2,12 @@
 
 Simple screen and webcam recording hook
 
+# Demo
+
+```
+[Playground here](https://flaviusbadescu.github.io/simple-intersection-observer-list-demo/)
+```
+
 # install
 
 ```
